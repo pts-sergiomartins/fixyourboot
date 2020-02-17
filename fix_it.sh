@@ -24,3 +24,9 @@ echo "DONE"
 
 # Other Notes
 # https://askubuntu.com/questions/804929/ubuntu-luks-volume-group-vgcrypt-not-found-drop-to-busybox
+#
+# Format for /etc/crypttab:  <device-name> UUID=<luks-uuid> none luks
+# For example, ls -l /dev/disks/bt-uuid/
+# 95fdfc15-12c1-4614-b0d6-95c8325db0a0 -> ../sdc2  (and I know this is my LUKS partition, named luksroot)
+# luksroot UUID=95fdfc15-12c1-4614-b0d6-95c8325db0a0 none luks
+# 
