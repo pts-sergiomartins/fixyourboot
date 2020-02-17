@@ -21,3 +21,6 @@ update-initramfs -k all -u
 update-grub
 
 echo "DONE"
+
+# Other Notes
+# https://askubuntu.com/questions/804929/ubuntu-luks-volume-group-vgcrypt-not-found-drop-to-busybox
